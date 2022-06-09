@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0px 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#333;
+    background: white;
+}
+
+
+ul{
+    list-style:none;
+}
+.container{
+    max-width: 1100;
+    margin: 0 auto;
+    padding:0 30px;
+}
+
+.navbar{
+    background: white;
+    color: grey;
+    height:150px;
+    display: flex;
+}
+.navbar > img{
+    padding: 10px 40px;
+}
+
+.navbar .logo{
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+
+.navbar a {
+    color:grey;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:lighter;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.navbar ul li {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.fashion{
+    display: flex;
+}
+
+.fashion >img{
+    max-width:100%;
+}
+}
+
+.header h1{
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.header .container{
+    display: flex;
+}
+.sneak h3{
+    color: rgb(233, 111, 62);
+    font-weight: lighter;
+    font-size: 15px;
+}
+.sneak h4{
+    font-weight:lighter;
+    font-size: 15px;
+}
+
+.header .amount{
+    display: flex;
+}
+.amount{
+    display: flex;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.amount h2{
+    background-color:white;
+    color: rgb(233, 111, 62); 
+    font-size: 20px;
+}
+
+.cross-amount{
+    font-size: 13px;
+    padding: 10px;
+}
+
+.button{
+    display: flex;
+}
+button {
+    background-color:rgb(233, 111, 62);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    width:100%;
+}
+.button > button{
+    width: 50px;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+button:active{
+    background-color: red;
+}
+input{
+    width: 50px; 
+}
+
+.hero {
+    display: flex;
+}
+
+.hero > div {
+    width: 50%;
+}
+
+.hero .large-image > img{
+    width: 80%;
+    border-radius: 50px;
+}
+
+.hero .small-images {
+    display: flex;
+}
+.hero .small-images > img {
+    width: 20%;
+    border-radius: 28px;
+}
+
+
+
+
+
+
+
